@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		41634ECD1984FD7F00AD9B3C /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41634ECC1984FD7F00AD9B3C /* libLeap.dylib */; };
 		41634ECE1984FD9000AD9B3C /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41634ECC1984FD7F00AD9B3C /* libLeap.dylib */; };
 		41E47A3A166F9080006D3CB8 /* aka.leapmotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E47A39166F9080006D3CB8 /* aka.leapmotion.cpp */; };
 		41E47A4A166F9400006D3CB8 /* Leap.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E47A49166F9400006D3CB8 /* Leap.h */; };
+=======
+		41E47A3A166F9080006D3CB8 /* aka.leapmotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E47A39166F9080006D3CB8 /* aka.leapmotion.cpp */; };
+		41E47A47166F93F5006D3CB8 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E47A46166F93F5006D3CB8 /* libLeap.dylib */; };
+		41E47A4A166F9400006D3CB8 /* Leap.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E47A49166F9400006D3CB8 /* Leap.h */; };
+		41E47A4C166F9440006D3CB8 /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41E47A46166F93F5006D3CB8 /* libLeap.dylib */; };
+		41E47A4E166F9706006D3CB8 /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E47A4D166F9706006D3CB8 /* MaxAPI.framework */; };
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,18 +28,31 @@
 			dstPath = Contents/MacOS;
 			dstSubfolderSpec = 1;
 			files = (
+<<<<<<< HEAD
 				41634ECE1984FD9000AD9B3C /* libLeap.dylib in CopyFiles */,
+=======
+				41E47A4C166F9440006D3CB8 /* libLeap.dylib in CopyFiles */,
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		2FBBEAE508F335360078DB84 /* aka.leapmotion.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aka.leapmotion.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
 		41634EC51984E6B500AD9B3C /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = maxmspsdk.xcconfig; path = ../../maxmspsdk.xcconfig; sourceTree = "<group>"; };
 		41634ECC1984FD7F00AD9B3C /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libLeap.dylib; sourceTree = "<group>"; };
 		41E47A39166F9080006D3CB8 /* aka.leapmotion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aka.leapmotion.cpp; sourceTree = "<group>"; };
 		41E47A49166F9400006D3CB8 /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
+=======
+		22CF10220EE984600054F513 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = maxmspsdk.xcconfig; path = ../../maxmspsdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		2FBBEAE508F335360078DB84 /* aka.leapmotion.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aka.leapmotion.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E47A39166F9080006D3CB8 /* aka.leapmotion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aka.leapmotion.cpp; sourceTree = "<group>"; };
+		41E47A46166F93F5006D3CB8 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libLeap.dylib; sourceTree = "<group>"; };
+		41E47A49166F9400006D3CB8 /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
+		41E47A4D166F9706006D3CB8 /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = "../../../c74support/max-includes/MaxAPI.framework"; sourceTree = "<group>"; };
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +60,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				41634ECD1984FD7F00AD9B3C /* libLeap.dylib in Frameworks */,
+=======
+				41E47A47166F93F5006D3CB8 /* libLeap.dylib in Frameworks */,
+				41E47A4E166F9706006D3CB8 /* MaxAPI.framework in Frameworks */,
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +75,11 @@
 		089C166AFE841209C02AAC07 /* iterator */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				41634EC51984E6B500AD9B3C /* maxmspsdk.xcconfig */,
+=======
+				22CF10220EE984600054F513 /* maxmspsdk.xcconfig */,
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
 				08FB77ADFE841716C02AAC07 /* Source */,
 				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
 				19C28FB4FE9D528D11CA2CBB /* Products */,
@@ -60,7 +90,12 @@
 		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				41634ECC1984FD7F00AD9B3C /* libLeap.dylib */,
+=======
+				41E47A46166F93F5006D3CB8 /* libLeap.dylib */,
+				41E47A4D166F9706006D3CB8 /* MaxAPI.framework */,
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
 			);
 			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
@@ -122,7 +157,11 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+<<<<<<< HEAD
 				LastUpgradeCheck = 0510;
+=======
+				LastUpgradeCheck = 0450;
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
 			};
 			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "aka.leapmotion" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -174,26 +213,35 @@
 /* Begin XCBuildConfiguration section */
 		2FBBEAD008F335010078DB84 /* Development */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 41634EC51984E6B500AD9B3C /* maxmspsdk.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = "";
+=======
+			buildSettings = {
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
 			};
 			name = Development;
 		};
 		2FBBEAD108F335010078DB84 /* Deployment */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 41634EC51984E6B500AD9B3C /* maxmspsdk.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = "";
+=======
+			buildSettings = {
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
 			};
 			name = Deployment;
 		};
 		2FBBEAE108F335360078DB84 /* Development */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 41634EC51984E6B500AD9B3C /* maxmspsdk.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -215,11 +263,28 @@
 				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
 				PRODUCT_NAME = aka.leapmotion;
 				VALID_ARCHS = "x86_64 i386";
+=======
+			baseConfigurationReference = 22CF10220EE984600054F513 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../c74support/max-includes\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
 			};
 			name = Development;
 		};
 		2FBBEAE208F335360078DB84 /* Deployment */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 41634EC51984E6B500AD9B3C /* maxmspsdk.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -240,6 +305,21 @@
 				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
 				PRODUCT_NAME = aka.leapmotion;
 				VALID_ARCHS = "x86_64 i386";
+=======
+			baseConfigurationReference = 22CF10220EE984600054F513 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../c74support/max-includes\"",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
 			};
 			name = Deployment;
 		};

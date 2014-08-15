@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
+<<<<<<< HEAD
    LastUpgradeVersion = "0510"
+=======
+   LastUpgradeVersion = "0450"
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +19,11 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2FBBEAD608F335360078DB84"
+<<<<<<< HEAD
                BuildableName = ".bundle"
+=======
+               BuildableName = "aka.leapmotion.mxo"
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
                BlueprintName = "max-external"
                ReferencedContainer = "container:aka.leapmotion.xcodeproj">
             </BuildableReference>

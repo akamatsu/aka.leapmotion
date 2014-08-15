@@ -37,7 +37,11 @@ void akaleapmotion_bang(t_akaleapmotion *x);
 void *akaleapmotion_class;
 
 //////////////////////// Max functions
+<<<<<<< HEAD
 int C74_EXPORT main(void)
+=======
+int main(void)
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
 {	
 	t_class *c;
 	
@@ -213,9 +217,15 @@ void *akaleapmotion_new(t_symbol *s, long argc, t_atom *argv)
 {
 	t_akaleapmotion *x = NULL;
     
+<<<<<<< HEAD
 	if ((x = (t_akaleapmotion *)object_alloc((t_class *)akaleapmotion_class)))
 	{
 		object_post((t_object *)x, "aka.leapmotion 0.21(32/64 bit) for The Leap 0.7.0");
+=======
+	if (x = (t_akaleapmotion *)object_alloc((t_class *)akaleapmotion_class))
+	{
+		object_post((t_object *)x, "aka.leapmotion 0.2 for The Leap 0.7.0");
+>>>>>>> 883d997e82ef2b648e68f3dcf7a8eabbc5e33e6d
 
 		x->frame_id_save = 0;
 		x->outlet = outlet_new(x, NULL);
